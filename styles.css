@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(87, 83, 83);
+    background-color: rgb(231, 88, 5);
     margin: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,25 +12,21 @@ body {
   .container {
     padding: 3rem;
     border-radius: 1rem;
-    border: 2px solid black;
+    border: 2px solid rgb(39, 39, 39);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(243, 227, 217);
+
   }
   
-  .form {
-    display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 1rem;
-    column-gap: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
+
   
   .title {
     margin: 0;
     text-align: center;
+    color: rgb(0, 0, 0);
   }
   
   label {
@@ -58,14 +54,12 @@ body {
   .btn {
     grid-column: span 2;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(134, 123, 123);
     color: white;
     padding: .5rem 1rem;
+    margin :1rem ;
     font-weight: bold;
     cursor: pointer;
     border-radius: 1rem;
   }
   
-  .btn:hover {
-    background-color: #FFFFFF33;
-  }

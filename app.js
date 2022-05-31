@@ -6,7 +6,7 @@ const passwordDisplay = document.getElementById('passwordDisplay')
 const randomHex = () => {
   let result = [];
   let numAndStr = "1234567890ABCDEF";
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 8; i++) {
     result.push(numAndStr[Math.floor(Math.random() * numAndStr.length)]);
   }
   passwordDisplay.innerHTML = result.join("");
