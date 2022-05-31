@@ -16,5 +16,16 @@ for (const item of form) {
   item.style.backgroundColor = `#${randomHex()}`;
 }
 
-
+// for (let i = 0; i < items.length; ) {
+//   items[i].style.backgroundColor = "gray";
+//   i += 2;
+// }
+// items.forEach((item, i) => {
+//   item.style.backgroundColor = `rgba(
+//      ${Math.floor(Math.random() * 255)},
+//     ${Math.floor(Math.random() * 255)},
+//     ${Math.floor(Math.random() * 255)},
+//     ${Math.random()}
+//   )`;
+// });
 
